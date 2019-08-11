@@ -1,0 +1,115 @@
+
+{
+    "editor.fontSize": 15,
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "editor.lineHeight": 40,
+
+    "terminal.integrated.lineHeight": 1.7,
+    "terminal.external.osxExec": "iTerm.app",
+    "terminal.integrated.fontSize": 15,
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.cursorStyle": "line",
+    "workbench.activityBar.visible": true,
+    "php.validate.run": "onType",
+    "php.suggest.basic": false,
+    "window.zoomLevel": -1,
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "namespaceResolver.showMessageOnStatusBar": true,
+    "namespaceResolver.sortAlphabetically": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "search.useIgnoreFiles": false,
+
+    // Configure editor settings to be overridden for [yaml] language.
+    "[yaml]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 4,
+        "editor.autoIndent": false
+    },
+
+    "editor.rulers": [
+        80,
+        120
+    ],
+
+    "editor.quickSuggestions": false,
+    "editor.snippetSuggestions": "top",
+    "editor.tabCompletion": "on",
+
+    "emmet.includeLanguages": {
+        "blade": "html",
+        "vue": "html"
+     },
+     "emmet.triggerExpansionOnTab": true,
+
+     "files.exclude": {
+         "**/.git": true,         // this is a default value
+         "**/.DS_Store": true,    // this is a default value
+         "**/node_modules": true, // this excludes all folders
+                                  // named "node_modules" from
+                                  // the explore tree
+                                    // alternative version
+         "node_modules": true,    // this excludes the folder
+                                 // only from the root of
+                                 // your workspace
+        "storage/framework/views": true
+     },
+     "search.smartCase": true,
+     "search.exclude": {
+         "**/.git": true,         // this is a default value
+         "**/.DS_Store": true,    // this is a default value
+         "**/.gitkeep": true,
+
+         "**/node_modules": true,
+         "**/bower_components": true,
+
+         "vendor/*/tests/*": true,
+         "storage/framework/**": true,
+         "storage/app/public": true,
+        //  "public/**": true,
+         "bootstrap/**": true,
+         "vendor/**/.gitignore": true,
+         "vendor/**/.gitattributes": true,
+         "vendor/*/.md": true,
+         "vendor/*/.png": true,
+         "vendor/*/.jpg": true,
+         "vendor/*/.jpeg": true,
+         "vendor/*/.gif": true,
+         "resources/**/vendor": true,
+         "*/fonts/*": true,
+         "vendor/*/vendor/*": true,
+         "*/.png": true,
+         "*/.jpg": true,
+         "*/.jpeg": true,
+         "*/.gif": true,
+         "**/composer.lock": true,
+
+         "vendor/[abcdefghijkmopqruvwxyz]*": true,
+     },
+    "explorer.autoReveal": false,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.formatOnPaste": true,
+    "explorer.openEditors.visible": 0,
+    "editor.minimap.enabled": true,
+    "workbench.startupEditor": "newUntitledFile",
+
+    "window.title": "${activeEditorMedium}${separator}${rootName} ${dirty}",
+    "editor.emptySelectionClipboard": true,
+    "editor.quickSuggestionsDelay": 0,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "git.confirmSync": false,
+    "files.associations": {
+        "*.blade.php": "blade",
+        "*.php": "php"
+    },
+    "explorer.decorations.badges": false,
+    "window.closeWhenEmpty": true,
+    "editor.detectIndentation": false,
+    "extensions.ignoreRecommendations": false,
+    "terminal.integrated.rendererType": "dom",
+    "breadcrumbs.enabled": true,
+    "files.autoSave": "onFocusChange",
+    "gitlens.keymap": "none",
+    "workbench.colorTheme": "Dracula",
+}
