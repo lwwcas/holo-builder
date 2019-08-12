@@ -12,6 +12,6 @@ use Symfony\Component\Console\Application;
 
 $application = new Application();
 
-$application->add(new Lwwcas\Builder\Commands\GitInstall());
+$application->add(new Lwwcas\Holo\Commands\GitInstall);
 
 $application->run();

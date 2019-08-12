@@ -1,6 +1,6 @@
 <?php
 
-namespace Lwwcas\Builder\Traits;
+namespace Lwwcas\Holo\Traits;
 
 trait Npm
 {

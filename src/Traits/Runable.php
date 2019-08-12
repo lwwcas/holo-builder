@@ -1,6 +1,6 @@
 <?php
 
-namespace Lwwcas\Builder\Traits;
+namespace Lwwcas\Holo\Traits;
 
 use Symfony\Component\Process\Process;
 use Symfony\Component\Console\Output\OutputInterface;

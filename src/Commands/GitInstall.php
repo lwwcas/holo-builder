@@ -1,8 +1,8 @@
 <?php
 
-namespace Lwwcas\Builder\Commands;
+namespace Lwwcas\Holo\Commands;
 
-use Lwwcas\Builder\Traits\Runable;
+use Lwwcas\Holo\Traits\Runable;
 use Symfony\Component\Process\Process;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputOption;
@@ -35,7 +35,15 @@ class GitInstall extends Command
      */
     protected function execute(InputInterface $input, OutputInterface $output)
     {
-        $output->writeln("<comment>test. ✔</comment>");
+
+        $process = new Process('sudo apt install git');
+        $this->runProcess($process, $output);
+
+        $process = new Process('ssh-keygen -t rsa -b 4096 -C "lucasduarte.job@gmail.com"');
+        $this->runProcess($process, $output);
+
+        $output->writeln("<comment>Git install. ✔</comment>");
+        $output->writeln("<comment>SSH key generate. ✔</comment>");
     }
 
 }

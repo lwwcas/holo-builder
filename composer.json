@@ -1,5 +1,5 @@
 {
-    "name": "lwwcas/start-config-ubuntu",
+    "name": "lwwcas/holo-builder",
     "description": "Package for install and config all my personal workspace",
     "authors": [{
         "name": "Lucas Duarte Oliveira",
@@ -11,14 +11,18 @@
         "lwwcas",
         "Lucas",
         "Duarte",
-        "help"
+        "help",
+        "config",
+        "holo",
+        "builder",
+        "ubuntu"
     ],
-    "homepage": "https://github.com/lwwcas/start-config-ubuntu",
+    "homepage": "https://github.com/lwwcas/holo-builder",
     "type": "library",
     "license": "MIT",
     "minimum-stability": "dev",
     "bin": [
-        "lwwcas-builder-bin"
+        "lwwcas-holo-builder-bin"
     ],
     "require": {
         "symfony/console": "^4.0",
@@ -28,7 +32,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Lwwcas\\Builder\\": "src/"
+            "Lwwcas\\Holo\\": "src/"
         }
     },
     "scripts": {
