@@ -14,6 +14,7 @@ $application = new Application();
 
 $application->add(new Lwwcas\Holo\Commands\Install\GitInstall);
 $application->add(new Lwwcas\Holo\Commands\Install\VsCodeInstall);
+$application->add(new Lwwcas\Holo\Commands\Install\GoogleChromeInstall);
 
 $application->add(new Lwwcas\Holo\Commands\VsCode\VsCodeBuilder);
 $application->add(new Lwwcas\Holo\Commands\VsCode\VsCodeFont);
