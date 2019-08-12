@@ -1,6 +1,6 @@
 {
     "name": "lwwcas/start-config-ubuntu",
-    "description": "Package for install and config all my personal work space",
+    "description": "Package for install and config all my personal workspace",
     "authors": [{
         "name": "Lucas Duarte Oliveira",
         "email": "lucasduarte.job@gmail.com",
@@ -17,6 +17,20 @@
     "type": "library",
     "license": "MIT",
     "minimum-stability": "dev",
+    "bin": [
+        "lwwcas-builder-bin"
+    ],
+    "require": {
+        "symfony/console": "^4.0",
+        "symfony/filesystem": "^4.0",
+        "symfony/process": "^4.0",
+        "symfony/yaml": "^4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lwwcas\\Builder\\": "src/"
+        }
+    },
     "scripts": {
         "builder": [
             "@builder-git",
