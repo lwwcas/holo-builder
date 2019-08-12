@@ -37,16 +37,8 @@
     },
     "scripts": {
         "builder": [
-            "@builder-git",
             "@builder-visualstudiocode"
         ],
-
-        "builder-git": [
-            "@install-git",
-            "@new-ssh-key"
-        ],
-        "install-git": "sudo apt install git",
-        "new-ssh-key": "ssh-keygen -t rsa -b 4096 -C \"lucasduarte.job@gmail.com\"",
 
         "builder-visualstudiocode": [
             "@install-fira-code",

@@ -14,4 +14,7 @@ $application = new Application();
 
 $application->add(new Lwwcas\Holo\Commands\GitInstall);
 
+$application->add(new Lwwcas\Holo\Commands\VsCodeInstall);
+$application->add(new Lwwcas\Holo\Commands\VsCodeBuilder);
+
 $application->run();
