@@ -12,9 +12,12 @@ use Symfony\Component\Console\Application;
 
 $application = new Application();
 
-$application->add(new Lwwcas\Holo\Commands\GitInstall);
+$application->add(new Lwwcas\Holo\Commands\Install\GitInstall);
+$application->add(new Lwwcas\Holo\Commands\Install\VsCodeInstall);
 
-$application->add(new Lwwcas\Holo\Commands\VsCodeInstall);
-$application->add(new Lwwcas\Holo\Commands\VsCodeBuilder);
+$application->add(new Lwwcas\Holo\Commands\VsCode\VsCodeBuilder);
+$application->add(new Lwwcas\Holo\Commands\VsCode\VsCodeFont);
+$application->add(new Lwwcas\Holo\Commands\VsCode\VsCodeExtensions);
+$application->add(new Lwwcas\Holo\Commands\VsCode\VsCodeConfig);
 
 $application->run();
