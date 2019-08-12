@@ -1,6 +1,6 @@
 <?php
 
-namespace Lwwcas\Holo\Commands;
+namespace Lwwcas\Holo\Commands\VsCode;
 
 use Lwwcas\Holo\Traits\Runable;
 use Symfony\Component\Process\Process;
@@ -22,8 +22,8 @@ class VsCodeBuilder extends Command
     protected function configure()
     {
         $this
-            ->setName('vscode:extensions')
-            ->setDescription('Install all extensions from visual studio code');
+            ->setName('vscode:build')
+            ->setDescription('Set up Visual Studio Code with everything you need');
     }
 
     /**

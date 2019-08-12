@@ -1,6 +1,6 @@
 <?php
 
-namespace Lwwcas\Holo\Commands;
+namespace Lwwcas\Holo\Commands\Install;
 
 use Lwwcas\Holo\Traits\Runable;
 use Symfony\Component\Process\Process;
@@ -10,7 +10,7 @@ use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 
-class VsCodeInstall extends Command
+class GitInstall extends Command
 {
     use Runable;
 
@@ -22,8 +22,8 @@ class VsCodeInstall extends Command
     protected function configure()
     {
         $this
-            ->setName('vscode:install')
-            ->setDescription('Install visual studio code');
+            ->setName('install:git')
+            ->setDescription('Install git and generate a new ssh key');
     }
 
     /**
@@ -36,19 +36,14 @@ class VsCodeInstall extends Command
     protected function execute(InputInterface $input, OutputInterface $output)
     {
 
-        $process = new Process('wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -');
+        $process = new Process('sudo apt install git');
         $this->runProcess($process, $output);
 
-        $process = new Process('sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"');
+        $process = new Process('ssh-keygen -t rsa -b 4096 -C "lucasduarte.job@gmail.com"');
         $this->runProcess($process, $output);
 
-        $process = new Process('sudo apt update');
-        $this->runProcess($process, $output);
-
-        $process = new Process('sudo apt install code');
-        $this->runProcess($process, $output);
-
-        $output->writeln("<comment>Visual studio code successfully installed. ✔</comment>");
+        $output->writeln("<comment>Git successfully installed. ✔</comment>");
+        $output->writeln("<comment>SSH key generate. ✔</comment>");
     }
 
 }
