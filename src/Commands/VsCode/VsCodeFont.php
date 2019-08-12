@@ -40,6 +40,7 @@ class VsCodeFont extends Command
         $process = new Process('sudo apt install fonts-firacode');
         $this->runProcess($process, $output);
 
+        $output->writeln("<comment>Font successfully installed. ✔</comment>");
     }
 
 }
