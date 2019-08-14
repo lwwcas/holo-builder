@@ -34,54 +34,6 @@
         "psr-4": {
             "Lwwcas\\Holo\\": "src/"
         }
-    },
-    "scripts": {
-        "builder": [
-            "@builder-visualstudiocode"
-        ],
-
-        "builder-visualstudiocode": [
-            "@install-fira-code",
-            "@vscode-copy-settings",
-            "@vscode-install-theme",
-            "@vscode-install-icon-theme",
-            "@vscode-install-extension-sublime-keybindings",
-            "@vscode-install-extension-vscode-dotenv",
-            "@vscode-install-extension-VSCodeBeautify",
-            "@vscode-install-extension-gitlens",
-            "@vscode-install-extension-laravel-blade-snippets",
-            "@vscode-install-extension-laravel-blade-vscode",
-            "@vscode-install-extension-php-docblocker",
-            "@vscode-install-extension-php-intellisense",
-            "@vscode-install-extension-PHP-Namespace-Resolver",
-            "@vscode-install-extension-php-snippets-for-vscode",
-            "@vscode-install-extension-php-project-manager",
-            "@vscode-install-extension-blade-spacer",
-            "@vscode-install-extension-intelephense",
-            "@vscode-install-extension-laravel-artisan"
-        ],
-
-        "install-fira-code": "sudo apt install fonts-firacode",
-        "vscode-copy-settings": "cp .vscode/settings.json ~/.config/Code/User/settings.json",
-        "vscode-install-theme": "git clone https://github.com/dracula/visual-studio-code.git ~/.vscode/extensions/theme-dracula",
-        "vscode-install-icon-theme": "git clone https://github.com/PKief/vscode-material-icon-theme.git ~/.vscode/extensions/pkief.material-icon-theme",
-        "vscode-install-extension-sublime-keybindings": "git clone https://github.com/microsoft/vscode-sublime-keybindings.git ~/.vscode/extensions/ms-vscode.sublime-keybindings",
-        "vscode-install-extension-vscode-dotenv": "git clone https://github.com/mikestead/vscode-dotenv.git ~/.vscode/extensions/vscode-dotenv",
-        "vscode-install-extension-VSCodeBeautify": "git clone https://github.com/HookyQR/VSCodeBeautify.git ~/.vscode/extensions/VSCodeBeautify",
-        "vscode-install-extension-gitlens": "git clone https://github.com/eamodio/vscode-gitlens.git ~/.vscode/extensions/gitlens",
-        "vscode-install-extension-laravel-blade-snippets": "git clone https://github.com/onecentlin/laravel-blade-snippets-vscode.git ~/.vscode/extensions/laravel-blade-snippets",
-        "vscode-install-extension-laravel-blade-vscode": "git clone https://github.com/cjoftheweb/laravel-blade-vscode.git ~/.vscode/extensions/laravel-blade-vscode",
-        "vscode-install-extension-php-docblocker": "git clone https://github.com/neild3r/vscode-php-docblocker.git ~/.vscode/extensions/php-docblocker",
-        "vscode-install-extension-php-intellisense": "git clone https://github.com/felixfbecker/vscode-php-intellisense.git ~/.vscode/extensions/php-intellisense",
-        "vscode-install-extension-PHP-Namespace-Resolver": "git clone https://github.com/MehediDracula/PHP-Namespace-Resolver.git ~/.vscode/extensions/PHP-Namespace-Resolver",
-        "vscode-install-extension-php-snippets-for-vscode": "git clone https://github.com/Mombuyish/php-snippets-for-vscode.git ~/.vscode/extensions/php-snippets-for-vscode",
-        "vscode-install-extension-php-project-manager": "git clone https://github.com/alefragnani/vscode-project-manager.git ~/.vscode/extensions/php-project-manager",
-        "vscode-install-extension-blade-spacer": "git clone https://github.com/austenc/vscode-blade-spacer.git ~/.vscode/extensions/blade-spacer",
-        "vscode-install-extension-intelephense": "git clone https://github.com/bmewburn/vscode-intelephense.git ~/.vscode/extensions/intelephense",
-        "vscode-install-extension-laravel-artisan": "git clone https://github.com/TheColorRed/vscode-laravel-artisan.git ~/.vscode/extensions/laravel-artisan"
-
-
-
-
     }
+
 }
