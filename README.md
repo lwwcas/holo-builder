@@ -31,7 +31,7 @@ git clone https://github.com/lwwcas/holo-builder.git ~/.holo && cd ~/.holo && co
 Paste this code in last line of the file `.bashrc`
 
 ```
-source ~/vendor/lwwcas/holo-builder/src/Ubuntu/core.cfg
+source ~/.holo/src/Ubuntu/core.cfg
 ```
 
 #### Third
