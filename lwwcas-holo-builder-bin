@@ -11,6 +11,8 @@ use Symfony\Component\Console\Application;
 
 $application = new Application();
 
+$application->add(new Lwwcas\Holo\Commands\SelfUpdateCommand);
+
 $application->add(new Lwwcas\Holo\Commands\Install\GitInstall);
 $application->add(new Lwwcas\Holo\Commands\Install\VsCodeInstall);
 $application->add(new Lwwcas\Holo\Commands\Install\GoogleChromeInstall);
