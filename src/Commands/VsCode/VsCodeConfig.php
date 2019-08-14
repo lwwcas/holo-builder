@@ -36,7 +36,7 @@ class VsCodeConfig extends Command
     {
 
         // Copy all config to Visual Studio Code
-        $process = new Process('cp ~/vendor/lwwcas/holo-builder/.vscode/settings.json ~/.config/Code/User/settings.json');
+        $process = new Process('cp ~/.holo/.vscode/settings.json ~/.config/Code/User/settings.json');
        $this->runProcess($process, $output);
 
     }
