@@ -20,7 +20,7 @@
     "homepage": "https://github.com/lwwcas/holo-builder",
     "type": "library",
     "license": "MIT",
-    "minimum-stability": "dev",
+    "minimum-stability": "^3.*",
     "bin": [
         "lwwcas-holo-builder-bin"
     ],
