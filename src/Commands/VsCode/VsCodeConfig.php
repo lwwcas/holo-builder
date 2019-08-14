@@ -5,7 +5,6 @@ namespace Lwwcas\Holo\Commands\VsCode;
 use Lwwcas\Holo\Traits\Runable;
 use Symfony\Component\Process\Process;
 use Symfony\Component\Console\Command\Command;
-use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 
@@ -38,6 +37,8 @@ class VsCodeConfig extends Command
         // Copy all config to Visual Studio Code
         $process = new Process('cp ~/.holo/.vscode/settings.json ~/.config/Code/User/settings.json');
        $this->runProcess($process, $output);
+
+        $output->writeln("<comment>Visual Studio Configuration is Done. ✔</comment>");
 
     }
 
