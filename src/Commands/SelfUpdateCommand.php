@@ -1,6 +1,6 @@
 <?php
 
-namespace Lwwcas\Holo\Commands\Install;
+namespace Lwwcas\Holo\Commands;
 
 use Lwwcas\Holo\Traits\Runable;
 use Symfony\Component\Process\Process;
