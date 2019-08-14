@@ -34,10 +34,10 @@ class SelfUpdateCommand extends Command
     protected function execute(InputInterface $input, OutputInterface $output)
     {
 
-        $process = new Process('~/.holo git pull origin master');
+        $process = new Process('cd ~/.holo git pull origin master');
         $this->runProcess($process, $output);
 
-        $process = new Process('~/.holo composer update');
+        $process = new Process('cd ~/.holo composer update');
         $this->runProcess($process, $output);
 
         $output->writeln("<comment>Holo was successfully updated ✔</comment>");
