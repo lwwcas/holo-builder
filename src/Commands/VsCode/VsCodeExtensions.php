@@ -77,6 +77,7 @@ class VsCodeExtensions extends Command
             'abusaidm.html-snippets',
             'abusaidm.html-snippets',
             'bradlc.vscode-tailwindcss',
+            'shd101wyy.markdown-preview-enhanced',
 
         ];
     }
