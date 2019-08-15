@@ -54,6 +54,7 @@ class VsCodeExtensions extends Command
     {
         return [
 
+            'PKief.material-icon-theme',
             'ms-vscode.sublime-keybindings',
             'formulahendry.auto-close-tag',
             'mikestead.dotenv',
