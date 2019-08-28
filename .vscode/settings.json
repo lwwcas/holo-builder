@@ -72,7 +72,7 @@
          "vendor/*/tests/*": true,
          "storage/framework/**": true,
          "storage/app/public": true,
-        //  "public/**": true,
+         "public/**": true,
          "bootstrap/**": true,
          "vendor/**/.gitignore": true,
          "vendor/**/.gitattributes": true,
