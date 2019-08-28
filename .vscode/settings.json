@@ -6,7 +6,6 @@
     "editor.lineHeight": 40,
 
     "terminal.integrated.lineHeight": 1.7,
-    "terminal.external.osxExec": "iTerm.app",
     "terminal.integrated.fontSize": 15,
     "terminal.integrated.cursorBlinking": true,
     "terminal.integrated.cursorStyle": "line",
@@ -28,11 +27,17 @@
         "editor.autoIndent": false
     },
 
+    // Configure editor settings to be overridden for [php] language.
+    "[php]": {
+        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+    },
+
     "editor.rulers": [
         80,
         120
     ],
 
+    "editor.renderLineHighlight": "gutter",
     "editor.quickSuggestions": false,
     "editor.snippetSuggestions": "top",
     "editor.tabCompletion": "on",
@@ -112,4 +117,5 @@
     "files.autoSave": "onFocusChange",
     "gitlens.keymap": "none",
     "workbench.colorTheme": "Dracula",
+
 }
