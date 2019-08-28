@@ -60,7 +60,6 @@ class VsCodeExtensions extends Command
             'mikestead.dotenv',
             'HookyQR.beautify',
             'eamodio.gitlens',
-            'onecentlin.laravel-blade',
             'cjhowe7.laravel-blade',
             'spoeken.pasteandformat',
             'MehediDracula.php-constructor',
@@ -72,13 +71,13 @@ class VsCodeExtensions extends Command
             'robinbentley.sass-indented',
             'bmewburn.vscode-intelephense-client',
             'ryannaddy.laravel-artisan',
-            'onecentlin.laravel5-snippets',
             'codingyu.laravel-goto-view',
             'austenc.laravel-blade-spacer',
             'abusaidm.html-snippets',
             'abusaidm.html-snippets',
             'bradlc.vscode-tailwindcss',
             'shd101wyy.markdown-preview-enhanced',
+            'naumovs.color-highlight',
 
         ];
     }
