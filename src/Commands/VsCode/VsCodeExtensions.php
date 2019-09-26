@@ -78,6 +78,8 @@ class VsCodeExtensions extends Command
             'bradlc.vscode-tailwindcss',
             'shd101wyy.markdown-preview-enhanced',
             'naumovs.color-highlight',
+            'wk-j.save-and-run',
+            'emallin.phpunit',
 
         ];
     }
