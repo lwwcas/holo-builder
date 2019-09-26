@@ -1,24 +1,214 @@
 
 {
-    "editor.fontSize": 15,
+    //..............................................
+    //...SSSSSSSS....tt.............lll.............
+    //..SSSSSSSSSS..ttt.............lll.............
+    //..SSSS..SSSS..ttt.............lll.............
+    //..SSS....SSS.Stttttyyyy...yyy.lll...eeeeee....
+    //..SSSSS......Stttttyyyy..yyyy.lll..eeeeeeee...
+    //..SSSSSSSSS...ttt..yyyy..yyyy.lll..eeee.eeee..
+    //...SSSSSSSSS..ttt...yyy..yyy..lll.leee..eeee..
+    //.....SSSSSSSS.ttt...yyyyyyyy..lll.leeeeeeeee..
+    //.........SSSS.ttt....yyyyyyy..lll.leeeeeeeee..
+    //.SSSS....SSSS.ttt....yyyyyy...lll.leee........
+    //.SSSSSSSSSSSS.tttt...yyyyyy...lll..eeee.eeee..
+    //..SSSSSSSSSS..ttttt...yyyyy...lll..eeeeeeee...
+    //...SSSSSSSS...ttttt...yyyy....lll...eeeeeee...
+    //......................yyyy....................
+    //.....................yyyy.....................
+    //...................yyyyyy.....................
+    //...................yyyyy......................
+    //..............................................
+
+    // Dracula Theme link
+    // https://draculatheme.com/visual-studio-code/
+    "workbench.colorTheme": "Dracula",
+
+    // Material Icon Theme link
+    // https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme
+    "workbench.iconTheme": "material-icon-theme",
+
+    // Fira Code font link
+    // https://github.com/tonsky/FiraCode
     "editor.fontFamily": "Fira Code",
+
+    //....................................................................................................
+    //.WWW...WWWWW...WWW...................kkk.......bbb.......................................hhh........
+    //.WWWW..WWWWW..WWWW...................kkk.......bbb.......................................hhh........
+    //.WWWW..WWWWW..WWWW.................r.kkk.......bbb.......................................hhh........
+    //.WWWW..WWWWW..WWWW..ooooooo..rrrrrrr.kkk..kkkk.bbbbbbbb....eeeeee..ennnnnnnn....cccccc...hhhhhhhh...
+    //..WWW..WWWWWW.WWW..ooooooooo.rrrrrrr.kkk.kkkk..bbbbbbbbb..eeeeeeee.ennnnnnnnn..cccccccc..hhhhhhhhh..
+    //..WWW.WWWWWWW.WWW.ooooo.oooo..rrrrrr.kkkkkkk...bbbb.bbbb.eeee..eee..nnnn.nnnn.nccc.cccc..hhhhhhhhh..
+    //..WWWWWWW.WWWWWWW.oooo...ooo..rrr....kkkkkk....bbb...bbb.eeee..eee..nnn...nnn.nccc..cccc.hhh..hhhh..
+    //..WWWWWWW.WWWWWWW.oooo...oooo.rrr....kkkkkk....bbb...bbb.eeeeeeeeee.nnn...nnn.nccc.......hhh...hhh..
+    //...WWWWWW.WWWWWW..oooo...oooo.rrr....kkkkkkk...bbb...bbb.eeeeeeeeee.nnn...nnn.nccc.......hhh...hhh..
+    //...WWWWWW.WWWWWW..oooo...ooo..rrr....kkkkkkk...bbb...bbb.eeee.......nnn...nnn.nccc..cccc.hhh...hhh..
+    //...WWWWW...WWWWW..ooooo.oooo..rrr....kkk.kkkk..bbbb.bbbb.eeee..eee..nnn...nnn.nccccccccc.hhh...hhh..
+    //...WWWWW...WWWWW...ooooooooo..rrr....kkk..kkkkbbbbbbbbbb..eeeeeeee..nnn...nnn..cccccccc..hhh...hhh..
+    //....WWWW...WWWW.....ooooooo...rrr....kkk..kkkkbbbbbbbbb....eeeeee...nnn...nnn...cccccc...hhh...hhh..
+    //....................................................................................................
+
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.activityBar.visible": true,
+
+    //.....................................................
+    //.EEEEEEEEEE........ddd..dii...tt.....................
+    //.EEEEEEEEEE........ddd..dii..itt.....................
+    //.EEEEEEEEEE........ddd.......itt.....................
+    //.EEE..........dddddddd..dii.iitttt..ooooooo...rrrrr..
+    //.EEE.........Edddddddd..dii.iitttt.ooooooooo..rrrrr..
+    //.EEEEEEEEEE.EEddd.dddd..dii..itt...oooo.oooo..rrrrr..
+    //.EEEEEEEEEE.EEdd..dddd..dii..itt..tooo...oooo.rrrr...
+    //.EEEEEEEEEE.EEdd...ddd..dii..itt..tooo...oooo.rrr....
+    //.EEE........EEdd...ddd..dii..itt..tooo...oooo.rrr....
+    //.EEE........EEdd..dddd..dii..itt..tooo...oooo.rrr....
+    //.EEEEEEEEEEEEEddd.dddd..dii..ittt..oooo.oooo..rrr....
+    //.EEEEEEEEEEE.Edddddddd..dii..itttt.ooooooooo..rrr....
+    //.EEEEEEEEEEE.Edddddddd..dii..itttt..ooooooo...rrr....
+    //.....................................................
+
+    "editor.fontSize": 15,
     "editor.fontLigatures": true,
     "editor.lineHeight": 40,
+
+    "editor.minimap.enabled": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.formatOnPaste": true,
+
+    "editor.renderLineHighlight": "gutter",
+    "editor.quickSuggestions": false,
+    "editor.snippetSuggestions": "top",
+    "editor.tabCompletion": "on",
+    "editor.detectIndentation": false,
+
+    "editor.emptySelectionClipboard": true,
+    "editor.quickSuggestionsDelay": 0,
+    "diffEditor.ignoreTrimWhitespace": false,
+
+    "editor.rulers": [
+        80,
+        120,
+    ],
+
+    //.......................................................................
+    //.WWW...WWWWW...WWW.iii...................ddd...........................
+    //.WWWW..WWWWW..WWWW.iii...................ddd...........................
+    //.WWWW..WWWWW..WWWW.......................ddd...........................
+    //.WWWW..WWWWW..WWWW.iii.nnnnnnnnn...ddddddddd...ooooooo.owww..wwww..ww..
+    //..WWW..WWWWWW.WWW..iii.nnnnnnnnnn..ddddddddd..oooooooooowww.wwwww..ww..
+    //..WWW.WWWWWWW.WWW..iii..nnnn.nnnn.ddddd.dddd.ooooo.oooo.www.wwwww.www..
+    //..WWWWWWW.WWWWWWW..iii..nnn...nnn.dddd..dddd.oooo...ooo.www.wwwwwwwww..
+    //..WWWWWWW.WWWWWWW..iii..nnn...nnn.dddd..dddd.oooo...oooowww.wwwwwwwww..
+    //...WWWWWW.WWWWWW...iii..nnn...nnn.dddd..dddd.oooo...oooowwwwww.wwwwww..
+    //...WWWWWW.WWWWWW...iii..nnn...nnn.dddd..dddd.oooo...ooo..wwwww.wwwwww..
+    //...WWWWW...WWWWW...iii..nnn...nnn.dddddddddd.ooooo.oooo..wwwww.wwwww...
+    //...WWWWW...WWWWW...iii..nnn...nnn..ddddddddd..ooooooooo..wwwww..wwww...
+    //....WWWW...WWWW....iii..nnn...nnn..ddddddddd...ooooooo...wwww...wwww...
+    //.......................................................................
+
+    "window.title": "${activeEditorMedium}${separator}${rootName} ${dirty}",
+    "window.zoomLevel": -1,
+    "window.closeWhenEmpty": true,
+
+    //............................................................................
+    //.TTTTTTTTTTT.................................mii.......................all..
+    //.TTTTTTTTTTT.................................mii.......................all..
+    //.TTTTTTTTTTT...............r...........................................all..
+    //.....TTT.....eeeeee..eerrrrrrrmmmmmmmmmmmm...mii.iinnnnnnn...naaaaaa...all..
+    //.....TTT....eeeeeeee.eerrrrrrrmmmmmmmmmmmmm..mii.iinnnnnnnn..naaaaaaa..all..
+    //.....TTT...Teee..eee..errrrr.rmmmmmmmm.mmmm..mii..innn.nnnn.nnaa.aaaa..all..
+    //.....TTT...Teee..eee..err....rmm..mmmm..mmm..mii..inn...nnn....aaaaaa..all..
+    //.....TTT...Teeeeeeeee.err....rmm..mmmm..mmm..mii..inn...nnn..naaaaaaa..all..
+    //.....TTT...Teeeeeeeee.err....rmm..mmmm..mmm..mii..inn...nnn.nnaaaaaaa..all..
+    //.....TTT...Teee.......err....rmm..mmmm..mmm..mii..inn...nnn.nnaa.aaaa..all..
+    //.....TTT...Teee..eee..err....rmm..mmmm..mmm..mii..inn...nnn.nnaa.aaaa..all..
+    //.....TTT....eeeeeeee..err....rmm..mmmm..mmm..mii..inn...nnn.nnaaaaaaaa.all..
+    //.....TTT.....eeeeee...err....rmm..mmmm..mmm..mii..inn...nnn.nnaaaaaaaa.all..
+    //............................................................................
 
     "terminal.integrated.lineHeight": 1.7,
     "terminal.integrated.fontSize": 15,
     "terminal.integrated.cursorBlinking": true,
     "terminal.integrated.cursorStyle": "line",
-    "workbench.activityBar.visible": true,
-    "php.validate.run": "onType",
-    "php.suggest.basic": false,
-    "window.zoomLevel": -1,
-    "files.insertFinalNewline": true,
-    "files.trimTrailingWhitespace": true,
+    "terminal.integrated.rendererType": "dom",
+    "terminal.integrated.shellArgs.linux": [
+        "-l"
+    ],
+
+    //.....................................................................
+    //....GGGGGGGG....................................................lll..
+    //...GGGGGGGGGG...................................................lll..
+    //..GGGGGGGGGGGG......................................r...........lll..
+    //..GGGG....GGGG...eeeeee...nnnnnnnn....eeeeee...rrrrrr..aaaaaa...lll..
+    //.GGGG...........eeeeeeee..nnnnnnnnn..eeeeeeee..rrrrrr.aaaaaaaa..lll..
+    //.GGGG...........eeee.eeee.nnnn.nnnn..eeee.eeee.rrrrrr.aaa.aaaa..lll..
+    //.GGGG...GGGGGG.Geee..eeee.nnnn..nnn.neee..eeee.rrrr.....aaaaaa..lll..
+    //.GGGG...GGGGGG.Geeeeeeeee.nnn...nnn.neeeeeeeee.rrr....aaaaaaaa..lll..
+    //.GGGG......GGG.Geeeeeeeee.nnn...nnn.neeeeeeeee.rrr...raaaaaaaa..lll..
+    //..GGGG.....GGG.Geee.......nnn...nnn.neee.......rrr...raaa..aaa..lll..
+    //..GGGGGGGGGGGG..eeee.eeee.nnn...nnn..eeee.eeee.rrr...raaa.aaaa..lll..
+    //...GGGGGGGGGGG..eeeeeeee..nnn...nnn..eeeeeeee..rrr...raaaaaaaaaalll..
+    //....GGGGGGGGG....eeeeeee..nnn...nnn...eeeeeee..rrr....aaaaaaaaaalll..
+    //.....................................................................
+
     "namespaceResolver.showMessageOnStatusBar": true,
     "namespaceResolver.sortAlphabetically": true,
-    "workbench.iconTheme": "material-icon-theme",
-    "search.useIgnoreFiles": false,
+
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.includeLanguages": {
+        "blade": "html",
+        "vue": "html"
+    },
+
+    "explorer.decorations.badges": false,
+    "explorer.openEditors.visible": 0,
+    "explorer.autoReveal": false,
+
+    "extensions.ignoreRecommendations": false,
+    "breadcrumbs.enabled": true,
+    "gitlens.keymap": "none",
+    "git.confirmSync": false,
+
+
+    //.......................................
+    //.PPPPPPPPPP..PHH.....HHH..HPPPPPPPPP...
+    //.PPPPPPPPPP..PHH.....HHH..HPPPPPPPPP...
+    //.PPPPPPPPPPP.PHH.....HHH..HPPPPPPPPPP..
+    //.PPP....PPPP.PHH.....HHH..HPP....PPPP..
+    //.PPP....PPPP.PHH.....HHH..HPP....PPPP..
+    //.PPP..PPPPPP.PHHHHHHHHHH..HPP..PPPPPP..
+    //.PPPPPPPPPP..PHHHHHHHHHH..HPPPPPPPPP...
+    //.PPPPPPPPP...PHHHHHHHHHH..HPPPPPPPP....
+    //.PPPPPPP.....PHH.....HHH..HPPPPPP......
+    //.PPP.........PHH.....HHH..HPP..........
+    //.PPP.........PHH.....HHH..HPP..........
+    //.PPP.........PHH.....HHH..HPP..........
+    //.PPP.........PHH.....HHH..HPP..........
+    //.......................................
+
+    // Configure editor settings to be overridden for [php] language.
+    "php.validate.run": "onType",
+    "php.suggest.basic": false,
+    "[php]": {
+        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+    },
+
+
+    //............................................
+    //.YYYY....YYYY..........................mll..
+    //.YYYYY..YYYYY..........................mll..
+    //..YYYY..YYYY...........................mll..
+    //...YYYYYYYY...aaaaaa...ammmmmmmmmmmmm..mll..
+    //...YYYYYYYY..Yaaaaaaa..ammmmmmmmmmmmm..mll..
+    //....YYYYYY...Yaa.aaaa..ammm.mmmmmmmmm..mll..
+    //....YYYYYY.....aaaaaa..amm..mmmm..mmm..mll..
+    //.....YYYY....Yaaaaaaa..amm..mmmm..mmm..mll..
+    //.....YYYY...YYaaaaaaa..amm..mmmm..mmm..mll..
+    //.....YYYY...YYaa..aaa..amm..mmmm..mmm..mll..
+    //.....YYYY...YYaa.aaaa..amm..mmmm..mmm..mll..
+    //.....YYYY...YYaaaaaaaaaamm..mmmm..mmm..mll..
+    //.....YYYY....Yaaaaaaaaaamm..mmmm..mmm..mll..
+    //............................................
 
     // Configure editor settings to be overridden for [yaml] language.
     "[yaml]": {
@@ -27,95 +217,133 @@
         "editor.autoIndent": false
     },
 
-    // Configure editor settings to be overridden for [php] language.
-    "[php]": {
-        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+    //..............................................................
+    //...SSSSSSSS........................................hhh........
+    //..SSSSSSSSSS.......................................hhh........
+    //..SSSS..SSSS...........................r...........hhh........
+    //..SSS....SSS...eeeeee....aaaaaa...rrrrrr..ccccccc..hhhhhhhh...
+    //..SSSSS.......eeeeeeee..aaaaaaaa..rrrrrr.cccccccc..hhhhhhhhh..
+    //..SSSSSSSSS...eeee.eeee.aaa.aaaa..rrrrrr.cccc.cccc.hhhhhhhhh..
+    //...SSSSSSSSS.Seee..eeee...aaaaaa..rrrr..rccc..cccc.hhhh..hhh..
+    //.....SSSSSSSSSeeeeeeeee.aaaaaaaa..rrr...rccc.......hhh...hhh..
+    //.........SSSSSeeeeeeeeeeaaaaaaaa..rrr...rccc.......hhh...hhh..
+    //.SSSS....SSSSSeee......eaaa..aaa..rrr...rccc..cccc.hhh...hhh..
+    //.SSSSSSSSSSSS.eeee.eeeeeaaa.aaaa..rrr....cccc.cccc.hhh...hhh..
+    //..SSSSSSSSSS..eeeeeeee.eaaaaaaaaaarrr....cccccccc..hhh...hhh..
+    //...SSSSSSSS....eeeeeee..aaaaaaaaaarrr.....ccccccc..hhh...hhh..
+    //..............................................................
+
+    "search.useIgnoreFiles": false,
+    "search.smartCase": true,
+    "search.exclude": {
+        "**/.git": true, // this is a default value
+        "**/.DS_Store": true, // this is a default value
+        "**/.gitkeep": true,
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "vendor/*/tests/*": true,
+        "storage/framework/**": true,
+        "storage/app/public": true,
+        "public/**": true,
+        "bootstrap/**": true,
+        "vendor/**/.gitignore": true,
+        "vendor/**/.gitattributes": true,
+        "vendor/*/.md": true,
+        "vendor/*/.png": true,
+        "vendor/*/.jpg": true,
+        "vendor/*/.jpeg": true,
+        "vendor/*/.gif": true,
+        "resources/**/vendor": true,
+        "*/fonts/*": true,
+        "vendor/*/vendor/*": true,
+        "*/.png": true,
+        "*/.jpg": true,
+        "*/.jpeg": true,
+        "*/.gif": true,
+        "**/composer.lock": true,
+        "vendor/[abcdefghijkmopqruvwxyz]*": true,
     },
 
-    "editor.rulers": [
-        80,
-        120
-    ],
+    //...........................................
+    //.FFFFFFFFFF.iii..lll.......................
+    //.FFFFFFFFFF.iii..lll.......................
+    //.FFFFFFFFFF......lll.......................
+    //.FFF........iii..lll...eeeeee...esssssss...
+    //.FFF........iii..lll..eeeeeeee..esssssss...
+    //.FFF........iii..lll..eeee.eeee.ess..sss...
+    //.FFFFFFFFFF.iii..lll.leee..eeee.essss......
+    //.FFFFFFFFFF.iii..lll.leeeeeeeee.esssssss...
+    //.FFFFFFFFFF.iii..lll.leeeeeeeee..ssssssss..
+    //.FFF........iii..lll.leee...........sssss..
+    //.FFF........iii..lll..eeee.eeeeeess..ssss..
+    //.FFF........iii..lll..eeeeeeee.eessssssss..
+    //.FFF........iii..lll...eeeeeee..esssssss...
+    //...........................................
 
-    "editor.renderLineHighlight": "gutter",
-    "editor.quickSuggestions": false,
-    "editor.snippetSuggestions": "top",
-    "editor.tabCompletion": "on",
-
-    "emmet.includeLanguages": {
-        "blade": "html",
-        "vue": "html"
-     },
-     "emmet.triggerExpansionOnTab": true,
-
-     "files.exclude": {
-         "**/.git": true,         // this is a default value
-         "**/.DS_Store": true,    // this is a default value
-         "**/node_modules": true, // this excludes all folders
-                                  // named "node_modules" from
-                                  // the explore tree
-                                    // alternative version
-         "node_modules": true,    // this excludes the folder
-                                 // only from the root of
-                                 // your workspace
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "files.autoSave": "onFocusChange",
+    "files.exclude": {
+        "**/.git": true,         // this is a default value
+        "**/.DS_Store": true,    // this is a default value
+        "**/node_modules": true, // this excludes all folders named "node_modules" from the explore tree alternative version
+        "node_modules": true,    // this excludes the folder only from the root of your workspace
         "storage/framework/views": true
-     },
-     "search.smartCase": true,
-     "search.exclude": {
-         "**/.git": true,         // this is a default value
-         "**/.DS_Store": true,    // this is a default value
-         "**/.gitkeep": true,
-
-         "**/node_modules": true,
-         "**/bower_components": true,
-
-         "vendor/*/tests/*": true,
-         "storage/framework/**": true,
-         "storage/app/public": true,
-         "public/**": true,
-         "bootstrap/**": true,
-         "vendor/**/.gitignore": true,
-         "vendor/**/.gitattributes": true,
-         "vendor/*/.md": true,
-         "vendor/*/.png": true,
-         "vendor/*/.jpg": true,
-         "vendor/*/.jpeg": true,
-         "vendor/*/.gif": true,
-         "resources/**/vendor": true,
-         "*/fonts/*": true,
-         "vendor/*/vendor/*": true,
-         "*/.png": true,
-         "*/.jpg": true,
-         "*/.jpeg": true,
-         "*/.gif": true,
-         "**/composer.lock": true,
-
-         "vendor/[abcdefghijkmopqruvwxyz]*": true,
-     },
-    "explorer.autoReveal": false,
-    "editor.multiCursorModifier": "ctrlCmd",
-    "editor.formatOnPaste": true,
-    "explorer.openEditors.visible": 0,
-    "editor.minimap.enabled": true,
-    "workbench.startupEditor": "newUntitledFile",
-
-    "window.title": "${activeEditorMedium}${separator}${rootName} ${dirty}",
-    "editor.emptySelectionClipboard": true,
-    "editor.quickSuggestionsDelay": 0,
-    "diffEditor.ignoreTrimWhitespace": false,
-    "git.confirmSync": false,
+    },
     "files.associations": {
         "*.blade.php": "blade",
         "*.php": "php"
     },
-    "explorer.decorations.badges": false,
-    "window.closeWhenEmpty": true,
-    "editor.detectIndentation": false,
-    "extensions.ignoreRecommendations": false,
-    "terminal.integrated.rendererType": "dom",
-    "breadcrumbs.enabled": true,
-    "files.autoSave": "onFocusChange",
-    "gitlens.keymap": "none",
-    "workbench.colorTheme": "Dracula",
+
+    //......................................................................
+    //.PPPPPPPPPP..Phh...................UUU.....UUU.............iii...tt...
+    //.PPPPPPPPPP..Phh...................UUU.....UUU.............iii..ttt...
+    //.PPPPPPPPPPP.Phh...................UUU.....UUU..................ttt...
+    //.PPP....PPPP.Phhhhhhh...hppppppp...UUU.....UUU..nnnnnnnn...iii.itttt..
+    //.PPP....PPPP.Phhhhhhhh..hpppppppp..UUU.....UUU..nnnnnnnnn..iii.itttt..
+    //.PPP..PPPPPP.Phhhhhhhh..hppp.ppppp.UUU.....UUU..nnnn.nnnn..iii..ttt...
+    //.PPPPPPPPPP..Phhh..hhh..hpp...pppp.UUU.....UUU..nnnn..nnn..iii..ttt...
+    //.PPPPPPPPP...Phh...hhh..hpp...pppp.UUU.....UUU..nnn...nnn..iii..ttt...
+    //.PPPPPPP.....Phh...hhh..hpp...pppp.UUU.....UUU..nnn...nnn..iii..ttt...
+    //.PPP.........Phh...hhh..hppp..pppp.UUUU...UUUU..nnn...nnn..iii..ttt...
+    //.PPP.........Phh...hhh..hppp.pppp..UUUUUUUUUUU..nnn...nnn..iii..tttt..
+    //.PPP.........Phh...hhh..hpppppppp..UUUUUUUUUU...nnn...nnn..iii..tttt..
+    //.PPP.........Phh...hhh..hppppppp....UUUUUUUU....nnn...nnn..iii..tttt..
+    //........................hpp...........................................
+    //........................hpp...........................................
+    //........................hpp...........................................
+    //........................hpp...........................................
+    //......................................................................
+
+    "phpunit.paths": {
+        "${workspaceFolder}": "."
+    },
+
+    //..................................................................................................................
+    //...SSSSSSSS....................................AAAAA......................ddd..RRRRRRRRRR.........................
+    //..SSSSSSSSSS...................................AAAAA......................ddd..RRRRRRRRRRR........................
+    //..SSSS..SSSS..................................AAAAAAA.....................ddd..RRRRRRRRRRR........................
+    //..SSS....SSS...aaaaaa..avv....vvv..eeeeee.....AAAAAAA....nnnnnnnn....dddddddd..RRR.....RRR..uuu...uuu..nnnnnnnn...
+    //..SSSSS.......aaaaaaaa.avvv..vvvv.eeeeeeee....AAAAAAA....nnnnnnnnn..ddddddddd..RRR.....RRR..uuu...uuu..nnnnnnnnn..
+    //..SSSSSSSSS...aaa.aaaa.avvv..vvvv.eeee.eeee..AAAA.AAAA...nnnn.nnnn.ndddd.dddd..RRR...RRRRR..uuu...uuu..nnnn.nnnn..
+    //...SSSSSSSSS....aaaaaa..vvv..vvv.veee..eeee..AAAA.AAAA...nnnn..nnn.nddd..dddd..RRRRRRRRRRR..uuu...uuu..nnnn..nnn..
+    //.....SSSSSSSS.aaaaaaaa..vvvvvvvv.veeeeeeeee..AAAAAAAAA...nnn...nnn.nddd...ddd..RRRRRRRRRR...uuu...uuu..nnn...nnn..
+    //.........SSSSSaaaaaaaa..vvvvvvvv.veeeeeeeee.AAAAAAAAAAA..nnn...nnn.nddd...ddd..RRRRRRRRRR...uuu...uuu..nnn...nnn..
+    //.SSSS....SSSSSaaa..aaa...vvvvvv..veee.......AAAAAAAAAAA..nnn...nnn.nddd..dddd..RRR...RRRR...uuu..uuuu..nnn...nnn..
+    //.SSSSSSSSSSSSSaaa.aaaa...vvvvvv...eeee.eeee.AAAA...AAAA..nnn...nnn.ndddd.dddd..RRR....RRRR..uuuu.uuuu..nnn...nnn..
+    //..SSSSSSSSSS.Saaaaaaaaaa.vvvvvv...eeeeeeee.eAAA.....AAAA.nnn...nnn..ddddddddd..RRR....RRRR..uuuuuuuuu..nnn...nnn..
+    //...SSSSSSSS...aaaaaaaaaa..vvvv.....eeeeeee.eAAA.....AAAA.nnn...nnn..ddddddddd..RRR.....RRRR.uuuuuuuuu..nnn...nnn..
+    //..................................................................................................................
+
+    "saveAndRun": {
+        "commands": [
+            {
+                "match": ".php",
+                "cmd": "php-cs-fixer fix --config .php_cs.dist ${relativeFile}",
+                "useShortcut": false,
+                "silent": true
+            },
+        ]
+    }
 
 }
