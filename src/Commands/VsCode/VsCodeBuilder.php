@@ -44,6 +44,9 @@ class VsCodeBuilder extends Command
 
         $command = $this->getApplication()->find('vscode:config');
         $command->run($greetInput, $output);
+        
+        $process = new Process('composer global require friendsofphp/php-cs-fixer');
+        $this->runProcess($process, $output);
 
         $output->writeln("<comment>Builder successfully installed. ✔</comment>");
 
